@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:First-webber}",
+            "name": "Debug App",
+            "program": "${workspaceFolder:First-webber}/.build/debug/App",
+            "preLaunchTask": "swift: Build Debug App"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:First-webber}",
+            "name": "Release App",
+            "program": "${workspaceFolder:First-webber}/.build/release/App",
+            "preLaunchTask": "swift: Build Release App"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:First-webber}",
+            "name": "Debug Service",
+            "program": "${workspaceFolder:First-webber}/.build/debug/Service",
+            "preLaunchTask": "swift: Build Debug Service"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:First-webber}",
+            "name": "Release Service",
+            "program": "${workspaceFolder:First-webber}/.build/release/Service",
+            "preLaunchTask": "swift: Build Release Service"
+        }
+    ]
+}
